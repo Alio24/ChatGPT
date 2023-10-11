@@ -62,7 +62,7 @@ function chatInit() {
     });
   }
 
-  function shouldSkip(item) {
+  function should_Skip(item) {
     return (
       item.querySelector('.chat-item-voice') ||
       !item.querySelector('button.rounded-md') ||
